@@ -1593,8 +1593,8 @@ mod test {
             Some(WorkerRuntimeOpts::UserWorker(UserWorkerRuntimeOpts {
                 memory_limit_mb,
                 worker_timeout_ms,
-                cpu_time_soft_limit_ms: 100,
-                cpu_time_hard_limit_ms: 200,
+                cpu_time_soft_limit_ms: 500,
+                cpu_time_hard_limit_ms: 500,
                 force_create: true,
                 ..default_opt
             })),
